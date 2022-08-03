@@ -88,7 +88,6 @@
 			children = (
 				3864C3E9237CB7FF000C9CA0 /* LocationGeocoder.swift */,
 				38159E9924352E8300819474 /* WeatherbitService.swift */,
-				E157DB282896D04100D4115A /* Box.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -122,6 +121,7 @@
 		6351BBCE23AE8A6A00B7C4DF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E157DB282896D04100D4115A /* Box.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
