@@ -20,6 +20,7 @@
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
 		E157DB292896D04100D4115A /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157DB282896D04100D4115A /* Box.swift */; };
+		E1659913289A6B0C004C9FD2 /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1659912289A6B0C004C9FD2 /* WeatherViewModelTests.swift */; };
 		E1BD156628995EA90058E3F0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BD156528995EA90058E3F0 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		D2A5F20F1F4A9144005CD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E157DB282896D04100D4115A /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Box.swift; path = MVVMFromMVC/Utilities/Box.swift; sourceTree = SOURCE_ROOT; };
+		E1659912289A6B0C004C9FD2 /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
 		E1BD156528995EA90058E3F0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				3864C3ED237CC1F4000C9CA0 /* LocationGeocoderTests.swift */,
 				3853FB7C237B8D1D00835B42 /* Info.plist */,
 				3853FB87237B9C0100835B42 /* WeatherbitExample.json */,
+				E1659912289A6B0C004C9FD2 /* WeatherViewModelTests.swift */,
 			);
 			path = MVVMFromMVCTests;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				3864C3EE237CC1F4000C9CA0 /* LocationGeocoderTests.swift in Sources */,
 				3853FB7B237B8D1D00835B42 /* WeatherbitDataTests.swift in Sources */,
+				E1659913289A6B0C004C9FD2 /* WeatherViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
